@@ -1,0 +1,51 @@
+input:valid {
+    border: 2px solid green;
+}
+
+.highlight-matches {
+    color: #06b40d;
+    font-weight: bold;
+}
+
+#country-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #767676;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#deel-drop-down {
+    margin: 15px;
+    max-width: 400px;
+}
+
+.list {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.list::-webkit-scrollbar {
+    display: none;
+}
+
+
+.list-item {
+    text-align: left;
+    padding: 10px;
+    min-width: 100px;
+    border: 1px solid #ccc;
+    margin: 5px 0;
+}
+
+.list-item:hover {
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+
+.list-item img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
