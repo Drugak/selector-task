@@ -1,9 +1,10 @@
 # How to run
-For using this component need just to link component to yours project.
+To use this component, you just need to link the component to your project.
 
+- ```npm install``` (run inside component)
 - ```npm run build``` (run inside component)
 - ```npm link ../<patch-to-app>/node_modules/react ../<patch-to-app>/node_modules/react-dom``` (run inside component for avoid React instance duplicate)
-- ```npm link``` (run inside deel-component component for creat link to component)
+- ```npm link``` (run inside deel-component component to creat link to the component)
 - ```npm link deel-component``` (run in the React App)
 - Update package.json in the React App
 ```
